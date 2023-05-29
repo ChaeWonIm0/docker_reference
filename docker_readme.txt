@@ -239,3 +239,8 @@ nginx reverse proxy
 
 대신 접속
 cd projects/00_FINAL_CODE/03_NGINX_PROXY_PORT/nginx$
+
+
+wordpress 폴더에서 사이트 제작
+nginx reserve proxy 서버 사용
+wordpress 사용 > https를 꼭 사용하도록 권장
