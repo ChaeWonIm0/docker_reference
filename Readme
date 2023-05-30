@@ -8,3 +8,20 @@ since 2023_05_19
 
 
 (all github branch in AWS lightsail ubuntu)
+
+#### 2023_05_30
+Make a Wordpress page!
+
+### check this link
+:15.165.195.43:9999
+:15.165.195.43:8080
+Now available
+(chae won)
+
+1) make nginx proxy
+2) take a docker
+3) and make a wordpress docker 
+4) connect some database container
+
+#### version : mysql:5.7, wordpress:5.7.0
+additionaly, forwarding a nginx.conf
