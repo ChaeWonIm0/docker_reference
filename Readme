@@ -13,7 +13,7 @@ since 2023_05_19
 Make a Wordpress page!
 
 ### check this link
-:15.165.195.43:9999/index.html
+:http://15.165.195.43:9999/index.html
 :http://15.165.195.43:8080/portpolio/
 Now available
 (chae won)
@@ -26,3 +26,4 @@ Now available
 
 #### version : mysql:5.7, wordpress:5.7.0
 additionaly, forwarding a nginx.conf
+#### restart options using for uncontrolled serverdown
