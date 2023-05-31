@@ -9,12 +9,12 @@ since 2023_05_19
 
 (all github branch in AWS lightsail ubuntu)
 
-#### 2023_05_30
+# 2023_05_29
 Make a Wordpress page!
 
-### check this link
+# check this link
 :http://15.165.195.43:9999/index.html
-:http://15.165.195.43:8080/portpolio/
+:http://15.165.195.43:8080/
 Now available
 (chae won)
 ![server image](img/9999_port.jpg)
@@ -24,6 +24,10 @@ Now available
 3) and make a wordpress docker 
 4) connect some database container
 
-#### version : mysql:5.7, wordpress:5.7.0
+* version : mysql:5.7, wordpress:5.7.0
 additionaly, forwarding a nginx.conf
-#### restart options using for uncontrolled serverdown
+# 2023-05-30  restart options using for uncontrolled serverdown
+
+# 2023-05-31 additional template download
+http://15.165.195.43:8080/
+(Wordpress)
