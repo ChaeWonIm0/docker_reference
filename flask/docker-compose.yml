@@ -6,7 +6,7 @@ services:
     container_name: proxy0612
     restart: always
     ports:
-      - "7070:7070"
+      - "7070:80"
       - "443:443"
     volumes:
       - ./myweb:/usr/share/nginx/html
@@ -19,6 +19,7 @@ services:
     restart: always
     volumes:
       - ./myweb:/usr/share/nginx/html
+
   certbot:
     depends_on:
       - webserver
@@ -27,4 +28,4 @@ services:
     volumes:
       - ./certbot-etc:/etc/letsencrypt
       - ./myweb:/usr/share/nginx/html
-    command: certonly --webroot --webroot-path=/usr/share/nginx/html --email test@test.com --agree-tos --no-eff-email --keep-until-expiring -d chaewonim.site -d www.chaewonim.site
+    command: certonly --webroot --webroot-path=/usr/share/nginx/html --email dla9944@gmail.com --agree-tos --no-eff-email --keep-until-expiring -d chaewonim.link
