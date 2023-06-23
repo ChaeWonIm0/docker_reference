@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-08 00:45:32+0000\n"
+"PO-Revision-Date: 2023-06-23 00:27:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,20 +11,55 @@ msgstr ""
 "Language: ko_KR\n"
 "Project-Id-Version: Themes - Twenty Twenty-Two\n"
 
-#. Theme Name of the theme
-#, gp-priority: high
-msgid "Twenty Twenty-Two"
-msgstr "Twenty Twenty-Two"
-
 #. Description of the theme
 #, gp-priority: high
 msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
 msgstr "Twenty Twenty-Two는 견고하게 디자인된 기반위에 만들어졌으며 모든 사람들은 진정으로 독특한 웹사이트를 가질 자격이 있다는 아이디어를 품고있습니다. 테마의 미묘한 스타일은 새의 다양성과 다재다능함에서 영감을 받았습니다. 타이포그래피는 가벼우면서도 강하고, 색상 팔레트는 자연에서 가져왔으며, 레이아웃 요소는 페이지에 부드럽게 배치됩니다. Twenty Twenty-Two의 진정한 장점은 맞춤화의 기회에 있습니다. 테마는 WordPress 5.9에 도입된 전체 사이트 편집 기능을 활용하도록 제작되었습니다. 즉, 사이트의 모든 단일 페이지의 색상, 타이포그래피 및 레이아웃을 사용자의 비전에 맞게 사용자 지정할 수 있습니다. 또한 수십 개의 블록 패턴이 포함되어 있어 클릭 몇 번으로 전문적으로 디자인된 다양한 레이아웃의 문을 열 수 있습니다. 단일 페이지 웹 사이트, 블로그, 비즈니스 웹 사이트 또는 포트폴리오를 구축하든 Twenty Twenty-Two는 여러분의 고유한 사이트를 만드는 데 도움이 될 것입니다."
 
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Two"
+msgstr "Twenty Twenty-Two"
+
+#: styles/swiss.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "기본 필터"
+
+#: styles/swiss.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: styles/swiss.json
+msgctxt "Style variation name"
+msgid "Swiss"
+msgstr "스위스"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM 플렉스 모노"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Sans"
+msgstr "IBM 플렉스 산스"
+
 #: styles/pink.json
 msgctxt "Style variation name"
 msgid "Pink"
 msgstr "핑크"
+
+#: styles/blue.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM 산스"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "파란색"
 
 #: inc/patterns/hidden-404.php:14
 msgid "Search"
@@ -180,6 +215,10 @@ msgctxt "Font family name"
 msgid "System Font"
 msgstr "시스템 글꼴"
 
+#: inc/patterns/query-text-grid.php:6
+msgid "Text-based grid of posts"
+msgstr "텍스트 기반 글 그리드"
+
 #: inc/patterns/query-simple-blog.php:6
 msgid "Simple blog posts"
 msgstr "간단한 블로그 글"
@@ -187,6 +226,10 @@ msgstr "간단한 블로그 글"
 #: inc/patterns/query-large-titles.php:6
 msgid "Large post titles"
 msgstr "큰 글 제목"
+
+#: inc/patterns/query-irregular-grid.php:6
+msgid "Irregular grid of posts"
+msgstr "불규칙적인 글 그리드"
 
 #: inc/patterns/query-image-grid.php:6
 msgid "Grid of image posts"
@@ -264,6 +307,19 @@ msgstr "안녕하세요. 제 이름은 펭수입니다. 저의 블로그를 찾�
 msgid "An illustration of a bird in flight"
 msgstr "새가 날고 있는 일러스트"
 
+#: inc/patterns/page-layout-image-text-and-video.php:21
+msgid "Screening"
+msgstr "상영"
+
+#: inc/patterns/page-layout-image-text-and-video.php:6
+msgid "Page layout with image, text and video"
+msgstr "이미지, 텍스트, 비디오가 있는 레이지 레이아웃"
+
+#: inc/patterns/page-layout-image-and-text.php:27
+#: inc/patterns/page-layout-two-columns.php:36
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr "안녕. 내 이름은 펭수야. 이 블로그를 운영하고 있지. 서울에서 태어났지만 지금은 강릉에 살고있지. <a href=\"#\">펭수의 하루</a>와 <a href=\"#\">펭수의 희망</a>이라는 이름의 책을 본 적이 있을 거야. 난 책 쓰는게 직업이야. <br><br>이 블로그를 광범위한 목록의 새와 재미있다고 생각되는 다른 것들의 목록을 만드는데 이용중이야. 목록에서 실수를 찾는다면 내게 알려줘.<br><br>네 취향의 차가 아니라도, <a href=\"#\">난 이 차를 정말로 추천해</a>. 내가 좋아하는 것이거든."
+
 #: inc/patterns/page-layout-image-and-text.php:15
 msgctxt "Short for to be determined"
 msgid "TBD"
@@ -277,6 +333,10 @@ msgstr "<em>워칭 버드 </em><br><em>정원에서</em>"
 msgid "Page layout with image and text"
 msgstr "이미지와 텍스트가 있는 페이지 레이아웃"
 
+#: inc/patterns/page-about-solid-color.php:22
+msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
+msgstr "안녕. 내 이름은 길동. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 매주 화요일 저녁 11시에 라이오 쇼 방송을 한다. 가끔씩 들려줘!"
+
 #: inc/patterns/page-about-solid-color.php:14
 msgid "Edvard<br>Smith"
 msgstr "Edvard<br>Smith"
@@ -285,6 +345,10 @@ msgstr "Edvard<br>Smith"
 msgid "About page on solid color background"
 msgstr "단일 색상 배경의 소개 페이지"
 
+#: inc/patterns/page-about-simple-dark.php:22
+msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "안녕. 내 이름은 광수. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 화요일 저녁 11시에 라이오 쇼 방송을 한다."
+
 #: inc/patterns/page-about-simple-dark.php:18
 msgid "Jesús<br>Rodriguez"
 msgstr "Jesús<br>Rodriguez"
@@ -292,6 +356,10 @@ msgstr "Jesús<br>Rodriguez"
 #: inc/patterns/page-about-simple-dark.php:6
 msgid "Simple dark about page"
 msgstr "단순하고 어두운 소개 페이지"
+
+#: inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "안녕. 내 이름은 명수. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 매주 화요일 저녁 11시에 라이오 쇼 방송을 한다."
 
 #: inc/patterns/page-about-media-right.php:16
 msgid "Emery<br>Driscoll"
@@ -304,6 +372,10 @@ msgstr "날고 있는 새 이미지"
 #: inc/patterns/page-about-media-right.php:6
 msgid "About page with media on the right"
 msgstr "우측에 미디어가 있는 소개 페이지"
+
+#: inc/patterns/page-about-media-left.php:21
+msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "안녕. 내 이름은 칠수. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 매주 화요일 저녁 11시에 라이오 쇼 방송을 한다. 가끔씩 들려줘!"
 
 #: inc/patterns/page-about-media-left.php:17
 msgid "Stilton"
@@ -326,6 +398,10 @@ msgstr "좌측에 미디어가 있는 소개 페이지"
 msgid "A podcast about birds"
 msgstr "새에 관한 팟캐스트"
 
+#: inc/patterns/page-about-links.php:17
+msgid "Swoop"
+msgstr "급습"
+
 #: inc/patterns/page-about-links.php:6
 msgid "About page links"
 msgstr "소개 페이지 링크"
@@ -334,6 +410,11 @@ msgstr "소개 페이지 링크"
 #: inc/patterns/page-about-links.php:46
 msgid "About the hosts"
 msgstr "호스트 소개"
+
+#: inc/patterns/page-about-links-dark.php:38
+#: inc/patterns/page-about-links.php:42
+msgid "Support the show"
+msgstr "쇼 지원"
 
 #: inc/patterns/page-about-links-dark.php:34
 #: inc/patterns/page-about-links.php:38
@@ -350,9 +431,34 @@ msgstr "iTunes Podcasts에서 듣기"
 msgid "Watch our videos"
 msgstr "비디오 시청"
 
+#: inc/patterns/page-about-links-dark.php:17
+msgid "A trouble of hummingbirds"
+msgstr "벌새의 골칫거리"
+
+#: inc/patterns/page-about-links-dark.php:13
+#: inc/patterns/page-about-links.php:10
+msgid "Logo featuring a flying bird"
+msgstr "날고 있는 새가 있는 로고"
+
 #: inc/patterns/page-about-links-dark.php:6
 msgid "About page links (dark)"
 msgstr "소개 페이지 링크 (어두운)"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:6
+msgid "About page with large image and buttons"
+msgstr "큰 이미지와 버튼이 있는 소개 페이지"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:59
+msgid "Join my mailing list"
+msgstr "내 이메일 목록 참여"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:51
+msgid "Learn about my process"
+msgstr "내 진행에 관해 알아보기"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:43
+msgid "Read about me"
+msgstr "나에 관해 읽기"
 
 #: inc/patterns/page-about-large-image-and-buttons.php:33
 msgid "Take a class"
@@ -408,9 +514,75 @@ msgstr "녹색 배경이 있는 텍스트 전용 헤더"
 msgid "Logo and navigation header"
 msgstr "로고와 내비게이션 헤더"
 
+#: inc/patterns/header-small-dark.php:6
+msgid "Small header with dark background"
+msgstr "어두운 배경이 있는 작은 이미지"
+
+#: inc/patterns/header-logo-navigation-social-black-background.php:6
+msgid "Logo, navigation, and social links header with background"
+msgstr "검정 배경이 있는 로고, 내비게이션, 소셜 링크 헤더"
+
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr "로고, 내비게이션, 오프셋 태그라인 헤더"
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with background"
+msgstr "회색 배경이 있는 로고, 내비게이션 헤더"
+
+#: inc/patterns/header-large-dark.php:24
+#: inc/patterns/hidden-heading-and-bird.php:14
+msgid "<em>The Hatchery</em>: a blog about my adventures in bird watching"
+msgstr "<em>부화장</em>: 조류 관찰 탐험에 관한 블로그"
+
+#: inc/patterns/header-large-dark.php:6
+msgid "Large header with dark background"
+msgstr "어두운 배경이 있는 큰 이미지"
+
+#: inc/patterns/header-image-background.php:11
+msgid "Illustration of a flying bird"
+msgstr "날고 있는 새 일러스트"
+
+#: inc/patterns/header-image-background.php:6
+msgid "Header with image background"
+msgstr "이미지 배경이 있는 헤더"
+
+#: inc/patterns/header-image-background-overlay.php:6
+msgid "Header with image background and overlay"
+msgstr "이미지 배경과 오버레이가 있는 헤더"
+
+#: inc/patterns/header-default.php:6
+msgid "Default header"
+msgstr "기본 헤더"
+
+#: inc/patterns/header-centered-title-navigation-social.php:6
+msgid "Centered header with navigation, social links, and background"
+msgstr "내비게이션, 소셜 링크, 연어 색상 배경이 있는 가운데 헤더"
+
+#: inc/patterns/header-centered-logo.php:6
+msgid "Header with centered logo"
+msgstr "가운데 로고가 있는 헤더"
+
+#: inc/patterns/header-centered-logo-black-background.php:6
+msgid "Header with centered logo and background"
+msgstr "가운데 로고와 검정 배경이 있는 헤더"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31
+msgid "Learn More"
+msgstr "더 알아보기"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:16
+msgid "Welcome to<br>the Aviary"
+msgstr "조류 동물원에 오신 것을<br>환영합니다"
+
 #: inc/patterns/general-wide-image-intro-buttons.php:6
 msgid "Wide image with introduction and buttons"
 msgstr "도입과 버튼이 있는 넓은 이미지"
+
+#: inc/patterns/general-video-trailer.php:16
+#: inc/patterns/general-wide-image-intro-buttons.php:22
+msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
+msgstr "새 관찰이 취미인 사람에 관한 영화. 다양한 새 목록. 이들이 만드는 잡음이 추가됨. 새는 학술적 이름으로 목록화 되어 좀 더 공식적으로 보이게 만듬."
 
 #: inc/patterns/general-video-trailer.php:12
 #: inc/patterns/page-layout-image-text-and-video.php:49
@@ -453,6 +625,10 @@ msgstr "티켓 구매"
 msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
 msgstr "2022년 5월 14일 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
 
+#: inc/patterns/general-two-images-text.php:25
+msgid "SCREENING"
+msgstr "상영"
+
 #: inc/patterns/general-two-images-text.php:17
 #: inc/patterns/general-wide-image-intro-buttons.php:10
 #: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
@@ -467,6 +643,60 @@ msgstr "가지에 앉아있는 새 일러스트."
 #: inc/patterns/general-two-images-text.php:6
 msgid "Two images with text"
 msgstr "텍스트가 있는 두 개의 이미지"
+
+#: inc/patterns/general-subscribe.php:16
+msgid "Join our mailing list"
+msgstr "내 이메일 목록 참여"
+
+#: inc/patterns/general-subscribe.php:11
+msgid "Watch birds<br>from your inbox"
+msgstr "받은 메일함에서<br>새 관찰하기"
+
+#: inc/patterns/general-subscribe.php:6
+msgid "Subscribe callout"
+msgstr "호출에 구독하기"
+
+#: inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr "$150"
+
+#: inc/patterns/general-pricing-table.php:79
+msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
+msgstr "송골매 등급에 가입하면 우리 커뮤니티네서 주도적인 역할을 할 수 있습니다. 이 등급은 우리 게시판에서 역할을 할 수 있는 자리가 주어집니다. 향후 새 관찰 탐험을 계획하는데 도움이 됩니다."
+
+#: inc/patterns/general-pricing-table.php:75
+msgid "Falcon"
+msgstr "송골매"
+
+#: inc/patterns/general-pricing-table.php:71
+msgctxt "Third item in a numbered list."
+msgid "3"
+msgstr "3"
+
+#: inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr "$75"
+
+#: inc/patterns/general-pricing-table.php:51
+msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
+msgstr "참새 등급에 가입하면 우리 커뮤니티의 회원이 됩니다! 뉴스레터를 받게 되며 새가 있는 뱃지를 받아 탐험에 나갔을 때 자랑스럽게 착용할 수 있습니다."
+
+#: inc/patterns/general-pricing-table.php:47
+msgid "Sparrow"
+msgstr "참새"
+
+#: inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr "2"
+
+#: inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr "$25"
+
+#: inc/patterns/general-pricing-table.php:23
+msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
+msgstr "비둘기 등급에 가입하면 발전하고 있는 우리 커뮤니티를 돕는 것이 됩니다. 회원님의 지원은 저희 작가에게 급여를 주는데 도움이 됩니다. 저희 뉴스레터에 접근할 특별한 권한도 있습니다."
 
 #: inc/patterns/general-pricing-table.php:19
 msgid "Pigeon"
@@ -530,6 +760,69 @@ msgstr "Speaker Series"
 #: inc/patterns/general-list-events.php:6
 msgid "List of events"
 msgstr "이벤트 목록"
+
+#: inc/patterns/general-layered-images-with-duotone.php:10
+#: inc/patterns/page-sidebar-blog-posts-right.php:58
+msgid "Illustration of a flying bird."
+msgstr "새가 날고있는 일러스트."
+
+#: inc/patterns/general-layered-images-with-duotone.php:9
+#: inc/patterns/header-image-background-overlay.php:11
+msgid "Painting of ducks in the water."
+msgstr "물 위의 오리 그림."
+
+#: inc/patterns/general-layered-images-with-duotone.php:6
+msgid "Layered images with duotone"
+msgstr "이중톤이 있는 레이어 이미지"
+
+#: inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr "더 읽기"
+
+#: inc/patterns/general-large-list-names.php:21
+msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+msgstr "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+
+#: inc/patterns/general-large-list-names.php:11
+#: inc/patterns/page-sidebar-poster.php:32
+msgid "An icon representing binoculars."
+msgstr "쌍안경을 나타내는 아이콘."
+
+#: inc/patterns/general-large-list-names.php:6
+msgid "Large list of names"
+msgstr "큰 이름 목록"
+
+#: inc/patterns/general-image-with-caption.php:15
+msgid "A beautiful bird featuring a surprising set of color feathers."
+msgstr "놀라운 색상의 깃털을 가진 아름다운 새."
+
+#: inc/patterns/general-image-with-caption.php:11
+msgid "Hummingbird"
+msgstr "벌새"
+
+#: inc/patterns/general-image-with-caption.php:10
+msgid "Hummingbird illustration"
+msgstr "벌새 일러스트"
+
+#: inc/patterns/general-image-with-caption.php:6
+msgid "Image with caption"
+msgstr "캡션이 있는 이미지"
+
+#: inc/patterns/general-featured-posts.php:6
+msgid "Featured posts"
+msgstr "특성 글"
+
+#: inc/patterns/general-divider-light.php:6
+msgid "Divider with image and color (light)"
+msgstr "이미지와 색상(밝은)이 있는 분리자"
+
+#: inc/patterns/general-divider-dark.php:6
+msgid "Divider with image and color (dark)"
+msgstr "이미지와 색상(어두운)이 있는 분리자"
+
+#: inc/patterns/footer-title-tagline-social.php:6
+msgid "Footer with title, tagline, and social links on a dark background"
+msgstr "어두운 배경에 제목, 태그라인, 소셜 링크가 있는 푸터"
 
 #: inc/patterns/footer-social-copyright.php:6
 msgid "Footer with social links and copyright"
@@ -598,188 +891,13 @@ msgstr "최근 글"
 msgid "Blog footer"
 msgstr "블로그 푸터"
 
-#: inc/patterns/page-about-links-dark.php:13
-#: inc/patterns/page-about-links.php:10
-msgid "Logo featuring a flying bird"
-msgstr "날고 있는 새가 있는 로고"
-
-#: inc/patterns/page-about-large-image-and-buttons.php:6
-msgid "About page with large image and buttons"
-msgstr "큰 이미지와 버튼이 있는 소개 페이지"
-
-#: inc/patterns/page-about-large-image-and-buttons.php:59
-msgid "Join my mailing list"
-msgstr "내 이메일 목록 참여"
-
-#: inc/patterns/page-about-large-image-and-buttons.php:51
-msgid "Learn about my process"
-msgstr "내 진행에 관해 알아보기"
-
-#: inc/patterns/page-about-large-image-and-buttons.php:43
-msgid "Read about me"
-msgstr "나에 관해 읽기"
-
-#: inc/patterns/header-large-dark.php:6
-msgid "Large header with dark background"
-msgstr "어두운 배경이 있는 큰 이미지"
-
-#: inc/patterns/header-image-background.php:11
-msgid "Illustration of a flying bird"
-msgstr "날고 있는 새 일러스트"
-
-#: inc/patterns/header-image-background.php:6
-msgid "Header with image background"
-msgstr "이미지 배경이 있는 헤더"
-
-#: inc/patterns/header-image-background-overlay.php:6
-msgid "Header with image background and overlay"
-msgstr "이미지 배경과 오버레이가 있는 헤더"
-
-#: inc/patterns/header-default.php:6
-msgid "Default header"
-msgstr "기본 헤더"
-
-#: inc/patterns/header-centered-title-navigation-social.php:6
-msgid "Centered header with navigation, social links, and background"
-msgstr "내비게이션, 소셜 링크, 연어 색상 배경이 있는 가운데 헤더"
-
-#: inc/patterns/header-centered-logo.php:6
-msgid "Header with centered logo"
-msgstr "가운데 로고가 있는 헤더"
-
-#: inc/patterns/header-centered-logo-black-background.php:6
-msgid "Header with centered logo and background"
-msgstr "가운데 로고와 검정 배경이 있는 헤더"
-
-#: inc/patterns/general-wide-image-intro-buttons.php:31
-msgid "Learn More"
-msgstr "더 알아보기"
-
-#: inc/patterns/general-wide-image-intro-buttons.php:16
-msgid "Welcome to<br>the Aviary"
-msgstr "조류 동물원에 오신 것을<br>환영합니다"
-
-#: inc/patterns/general-subscribe.php:16
-msgid "Join our mailing list"
-msgstr "내 이메일 목록 참여"
-
-#: inc/patterns/general-subscribe.php:6
-msgid "Subscribe callout"
-msgstr "호출에 구독하기"
-
-#: inc/patterns/general-layered-images-with-duotone.php:6
-msgid "Layered images with duotone"
-msgstr "이중톤이 있는 레이어 이미지"
-
-#: inc/patterns/general-large-list-names.php:30
-msgid "Read more"
-msgstr "더 읽기"
-
-#: inc/patterns/general-large-list-names.php:21
-msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
-msgstr "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
-
-#: inc/patterns/general-large-list-names.php:11
-#: inc/patterns/page-sidebar-poster.php:32
-msgid "An icon representing binoculars."
-msgstr "쌍안경을 나타내는 아이콘."
-
-#: inc/patterns/general-large-list-names.php:6
-msgid "Large list of names"
-msgstr "큰 이름 목록"
-
-#: inc/patterns/general-image-with-caption.php:15
-msgid "A beautiful bird featuring a surprising set of color feathers."
-msgstr "놀라운 색상의 깃털을 가진 아름다운 새."
-
-#: inc/patterns/general-image-with-caption.php:11
-msgid "Hummingbird"
-msgstr "벌새"
-
-#: inc/patterns/general-image-with-caption.php:10
-msgid "Hummingbird illustration"
-msgstr "벌새 일러스트"
-
-#: inc/patterns/general-image-with-caption.php:6
-msgid "Image with caption"
-msgstr "캡션이 있는 이미지"
-
-#: inc/patterns/general-featured-posts.php:6
-msgid "Featured posts"
-msgstr "특성 글"
-
-#: inc/patterns/general-divider-light.php:6
-msgid "Divider with image and color (light)"
-msgstr "이미지와 색상(밝은)이 있는 분리자"
-
-#: inc/patterns/general-divider-dark.php:6
-msgid "Divider with image and color (dark)"
-msgstr "이미지와 색상(어두운)이 있는 분리자"
-
-#: inc/patterns/footer-title-tagline-social.php:6
-msgid "Footer with title, tagline, and social links on a dark background"
-msgstr "어두운 배경에 제목, 태그라인, 소셜 링크가 있는 푸터"
+#: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
+msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
+msgstr "우리는 조류 관찰자의 악질 집단입니다. 담장을 몰래 넘어가거나 벽을 타고 넘어가고 남의 지역에 침입해 희귀한 조류를 관찰합니다."
 
 #: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
 msgid "About us"
 msgstr "회사 소개"
-
-#: inc/patterns/header-small-dark.php:6
-msgid "Small header with dark background"
-msgstr "어두운 배경이 있는 작은 이미지"
-
-#: inc/patterns/header-logo-navigation-social-black-background.php:6
-msgid "Logo, navigation, and social links header with background"
-msgstr "검정 배경이 있는 로고, 내비게이션, 소셜 링크 헤더"
-
-#: inc/patterns/header-logo-navigation-offset-tagline.php:6
-msgid "Logo, navigation, and offset tagline Header"
-msgstr "로고, 내비게이션, 오프셋 태그라인 헤더"
-
-#: inc/patterns/header-logo-navigation-gray-background.php:6
-msgid "Logo and navigation header with background"
-msgstr "회색 배경이 있는 로고, 내비게이션 헤더"
-
-#: inc/patterns/header-large-dark.php:24
-#: inc/patterns/hidden-heading-and-bird.php:14
-msgid "<em>The Hatchery</em>: a blog about my adventures in bird watching"
-msgstr "<em>부화장</em>: 조류 관찰 탐험에 관한 블로그"
-
-#: inc/patterns/general-pricing-table.php:75
-msgid "Falcon"
-msgstr "송골매"
-
-#: inc/patterns/general-pricing-table.php:71
-msgctxt "Third item in a numbered list."
-msgid "3"
-msgstr "3"
-
-#: inc/patterns/general-pricing-table.php:56
-msgid "$75"
-msgstr "$75"
-
-#: inc/patterns/general-pricing-table.php:47
-msgid "Sparrow"
-msgstr "참새"
-
-#: inc/patterns/general-pricing-table.php:43
-msgctxt "Second item in a numbered list."
-msgid "2"
-msgstr "2"
-
-#: inc/patterns/general-pricing-table.php:28
-msgid "$25"
-msgstr "$25"
-
-#: inc/patterns/general-layered-images-with-duotone.php:10
-#: inc/patterns/page-sidebar-blog-posts-right.php:58
-msgid "Illustration of a flying bird."
-msgstr "새가 날고있는 일러스트."
-
-#: inc/patterns/general-layered-images-with-duotone.php:9
-#: inc/patterns/header-image-background-overlay.php:11
-msgid "Painting of ducks in the water."
-msgstr "물 위의 오리 그림."
 
 #: inc/patterns/footer-about-title-logo.php:6
 msgid "Footer with text, title, and logo"
@@ -797,14 +915,6 @@ msgstr "쿼리"
 msgid "Headers"
 msgstr "헤더"
 
-#: inc/patterns/general-subscribe.php:11
-msgid "Watch birds<br>from your inbox"
-msgstr "받은 메일함에서<br>새 관찰하기"
-
-#: inc/patterns/general-pricing-table.php:84
-msgid "$150"
-msgstr "$150"
-
 #: inc/block-patterns.php:18
 msgid "Footers"
 msgstr "푸터"
@@ -813,92 +923,17 @@ msgstr "푸터"
 msgid "Featured"
 msgstr "특성"
 
-#: inc/patterns/page-layout-image-text-and-video.php:6
-msgid "Page layout with image, text and video"
-msgstr "이미지, 텍스트, 비디오가 있는 레이지 레이아웃"
-
-#: inc/patterns/page-layout-image-text-and-video.php:21
-msgid "Screening"
-msgstr "상영"
-
-#: inc/patterns/page-about-solid-color.php:22
-msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
-msgstr "안녕. 내 이름은 길동. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 매주 화요일 저녁 11시에 라이오 쇼 방송을 한다. 가끔씩 들려줘!"
-
-#: inc/patterns/page-layout-image-and-text.php:27
-#: inc/patterns/page-layout-two-columns.php:36
-msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
-msgstr "안녕. 내 이름은 펭수야. 이 블로그를 운영하고 있지. 서울에서 태어났지만 지금은 강릉에 살고있지. <a href=\"#\">펭수의 하루</a>와 <a href=\"#\">펭수의 희망</a>이라는 이름의 책을 본 적이 있을 거야. 난 책 쓰는게 직업이야. <br><br>이 블로그를 광범위한 목록의 새와 재미있다고 생각되는 다른 것들의 목록을 만드는데 이용중이야. 목록에서 실수를 찾는다면 내게 알려줘.<br><br>네 취향의 차가 아니라도, <a href=\"#\">난 이 차를 정말로 추천해</a>. 내가 좋아하는 것이거든."
-
-#: inc/patterns/page-about-simple-dark.php:22
-msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
-msgstr "안녕. 내 이름은 광수. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 화요일 저녁 11시에 라이오 쇼 방송을 한다."
-
-#: inc/patterns/page-about-media-right.php:20
-msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
-msgstr "안녕. 내 이름은 명수. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 매주 화요일 저녁 11시에 라이오 쇼 방송을 한다."
-
-#: inc/patterns/page-about-media-left.php:21
-msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
-msgstr "안녕. 내 이름은 칠수. 내 웹사이트에 온 것을 환영해. 난 열렬한 새 관찰자야. 난 매주 화요일 저녁 11시에 라이오 쇼 방송을 한다. 가끔씩 들려줘!"
-
-#: inc/patterns/page-about-links.php:17
-msgid "Swoop"
-msgstr "급습"
-
-#: inc/patterns/page-about-links-dark.php:38
-#: inc/patterns/page-about-links.php:42
-msgid "Support the show"
-msgstr "쇼 지원"
-
-#: inc/patterns/page-about-links-dark.php:17
-msgid "A trouble of hummingbirds"
-msgstr "벌새의 골칫거리"
-
-#: inc/patterns/general-video-trailer.php:16
-#: inc/patterns/general-wide-image-intro-buttons.php:22
-msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
-msgstr "새 관찰이 취미인 사람에 관한 영화. 다양한 새 목록. 이들이 만드는 잡음이 추가됨. 새는 학술적 이름으로 목록화 되어 좀 더 공식적으로 보이게 만듬."
-
-#: inc/patterns/general-two-images-text.php:25
-msgid "SCREENING"
-msgstr "상영"
-
-#: inc/patterns/general-pricing-table.php:79
-msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
-msgstr "송골매 등급에 가입하면 우리 커뮤니티네서 주도적인 역할을 할 수 있습니다. 이 등급은 우리 게시판에서 역할을 할 수 있는 자리가 주어집니다. 향후 새 관찰 탐험을 계획하는데 도움이 됩니다."
-
-#: inc/patterns/general-pricing-table.php:51
-msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
-msgstr "참새 등급에 가입하면 우리 커뮤니티의 회원이 됩니다! 뉴스레터를 받게 되며 새가 있는 뱃지를 받아 탐험에 나갔을 때 자랑스럽게 착용할 수 있습니다."
-
-#: inc/patterns/general-pricing-table.php:23
-msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
-msgstr "비둘기 등급에 가입하면 발전하고 있는 우리 커뮤니티를 돕는 것이 됩니다. 회원님의 지원은 저희 작가에게 급여를 주는데 도움이 됩니다. 저희 뉴스레터에 접근할 특별한 권한도 있습니다."
-
-#: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
-msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
-msgstr "우리는 조류 관찰자의 악질 집단입니다. 담장을 몰래 넘어가거나 벽을 타고 넘어가고 남의 지역에 침입해 희귀한 조류를 관찰합니다."
-
-#: inc/patterns/query-text-grid.php:6
-msgid "Text-based grid of posts"
-msgstr "텍스트 기반 글 그리드"
-
-#: inc/patterns/query-irregular-grid.php:6
-msgid "Irregular grid of posts"
-msgstr "불규칙적인 글 그리드"
-
 #. Theme URI of the theme
 #, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentytwo/"
 msgstr "https://wordpress.org/themes/twentytwentytwo/"
 
-#. Author of the theme
-#, gp-priority: low
-msgid "the WordPress team"
-msgstr "워드프레스 팀"
-
 #. Author URI of the theme
 #, gp-priority: low
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "워드프레스 팀"
